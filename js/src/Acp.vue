@@ -7,7 +7,7 @@
           <svg class="fill-current w-24" viewBox="0 0 226 62" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd" font-weight="500" stroke="none" stroke-width="1">
               <g fill="#999999" transform="translate(-1.000000, -25.000000)">
-                <text font-family="AvenirNext-DemiBold, Avenir Next" font-size="64">
+                <text font-family="Montserrat" font-size="60">
                   <tspan x="0" y="71">super</tspan>
                 </text>
                 <text fill="#67c23a" font-family=""
@@ -28,7 +28,7 @@
 import { LayoutDefault, SvSidebar } from 'superv-js'
 
 export default {
-  name: 'SuperV',
+  name: 'Acp',
   components: { SvSidebar, LayoutDefault },
 }
 </script>

@@ -1,6 +1,8 @@
 import Vue from 'vue'
-import SuperVJS from 'superv-js'
-import SuperV from './SuperV'
+import supervjs from 'superv-js'
+import Acp from './Acp'
+import routes from './app/routes'
+
 
 let config
 try {
@@ -10,12 +12,13 @@ try {
 }
 
 Vue.config.productionTip = false
-Vue.use(SuperVJS, {
+Vue.use(supervjs, {
     config: {
       name: process.env.VUE_APP_NAME,
       apiUrl: config.apiUrl,
       baseUrl: config.baseUrl
     },
+    routes,
     modules: []
   }
 )
@@ -25,7 +28,7 @@ new Vue({
   name: 'root',
   data() {
     return {
-      layouts: { default: SuperV }
+      layouts: { default: Acp }
     }
   },
   mixins: [require('superv-js').LayoutMixin]
