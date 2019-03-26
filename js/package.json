@@ -1,6 +1,6 @@
 {
-    "name": "superv-spa",
-    "version": "0.1.0",
+    "name": "superv-acp",
+    "version": "0.10.0",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
