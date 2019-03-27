@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "chart.js": "^2.8.0",
-        "superv-js": "^0.9.4",
+        "superv-js": "^0.10.0",
         "tailwindcss": "^1.0.0-beta.3",
         "vue": "^2.6.9",
         "vue-chartjs": "^3.4.2"
