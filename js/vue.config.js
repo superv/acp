@@ -19,6 +19,13 @@ module.exports = {
       host: 'acp.supreme.dev.io',
       publicPath: '/',
       port: 8090,
+      proxy: {
+        '/api': {
+          target: 'http://supreme.dev.io',
+          pathRewrite: { '^/api': 'sv-api' },
+          changeOrigin: true,
+        },
+      },
     },
   },
 

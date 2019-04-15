@@ -4,6 +4,7 @@
     <template slot="sidebar">
       <sv-sidebar>
         <template slot="logo">
+
           <svg class="fill-current w-24" viewBox="0 0 226 62" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd" font-weight="500" stroke="none" stroke-width="1">
               <g fill="#999999" transform="translate(-1.000000, -25.000000)">
@@ -34,19 +35,23 @@ export default {
 </script>
 
 <style>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-base;
+}
 
-  .font-sans {
-    font-size: 14px;
-    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-  }
 
-  .material-icons {
-    font-size: 20px !important;
-  }
+.font-sans {
+  font-size: 14px;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
 
+
+.material-icons {
+  font-size: 20px !important;
+}
 </style>
