@@ -1,4 +1,5 @@
 const path = require('path')
+const fs = require('fs')
 const base = path.resolve(__dirname, '../../../../../')
 
 const isDevel = process.env.NODE_ENV === 'development'
@@ -30,8 +31,7 @@ module.exports = {
   },
 
   chainWebpack: config => {
-    config.plugin('html')
-    .tap(args => {
+    config.plugin('html').tap(args => {
       if (isDevel) {
         args[0].template = './public/development.html'
       }
@@ -46,8 +46,10 @@ module.exports = {
     alias.set('@app', path.resolve(__dirname, 'src/app'))
     alias.set('@assets', path.resolve(__dirname, 'public/assets'))
 
-    if (process.env.NODE_ENV === 'development') {
+    // if yarn link used
+    let svjsPath = path.resolve(__dirname, 'node_modules/superv-js/src/main.js')
+    if (fs.existsSync(svjsPath)) {
       alias.set('superv-js', 'superv-js/src/main')
     }
-  }
+  },
 }
