@@ -1,25 +1,43 @@
 <template>
-  <div class="sv-page-2 bg-gray-100 flex-grow">
-    <sv-page-header title="Dashboard"></sv-page-header>
+    <div class="sv-page-2 bg-gray-100 flex-grow">
+        <sv-page-header title="Dashboard"></sv-page-header>
 
-    <div class="p-8 pb-16">
+        <div class="p-8 pb-10">
+            <sv-card title="Picker">
+                <sv-picker
+                    :payload="pickerPayload"
+                    source="http://acp.supreme.dev.io:8090/api/supreme/dashboard"
+                    target="http://acp.supreme.dev.io:8090/api/supreme/dashboard"
+                >
+                </sv-picker>
+            </sv-card>
+        </div>
 
-      <sv-button color="green" @click="success">Success</sv-button>
-      <sv-button color="red" @click="error">Error</sv-button>
-
+        <div class="p-8 pb-10">
+            <sv-card title="Notifications">
+                <div class="text-right">
+                    <sv-button @click="success" color="green" size="xs">Success</sv-button>
+                    <sv-button @click="error" color="red" size="xs">Error</sv-button>
+                </div>
+            </sv-card>
+        </div>
     </div>
-
-  </div>
 </template>
 
 <script>
-import { SvButton, SvPageHeader } from 'superv-js'
+import { SvButton, SvCard, SvPageHeader } from 'superv-js'
+import SvPicker from './SvPicker'
 
 export default {
   name: 'Dashboard',
-  components: { SvButton, SvPageHeader },
+  components: { SvPicker, SvCard, SvButton, SvPageHeader },
+  data() {
+    return {
+      pickerPayload: { provision: 'pass' }
+    }
+  },
   created() {
-    this.fetch()
+    // this.fetch()
   },
   methods: {
     success() {

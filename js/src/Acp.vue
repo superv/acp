@@ -5,15 +5,15 @@
     <template slot="site-header">
       <sv-site-header>
         <template slot="logo">
-          <svg class="fill-current w-24" viewBox="0 0 226 62" xmlns="http://www.w3.org/2000/svg">-->
+            <svg class="fill-current w-32" viewBox="0 0 300 62" xmlns="http://www.w3.org/2000/svg">-->
                         <g fill="none" fill-rule="evenodd" font-weight="500" stroke="none" stroke-width="1">
                           <g fill="#999999" transform="translate(-1.000000, -25.000000)">
                             <text font-family="Montserrat" font-size="60">
-                              <tspan x="0" y="71">supreme</tspan>
+                                <tspan x="0" y="71">Suprem</tspan>
                             </text>
                             <text fill="#67c23a" font-family=""
-                                  font-size="70" font-style="italic">
-                              <tspan x="156" y="72">E</tspan>
+                                  font-size="70" font-style="">
+                                <tspan x="216" y="64">e</tspan>
                             </text>
                           </g>
                         </g>
