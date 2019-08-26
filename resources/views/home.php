@@ -12,7 +12,7 @@
     <link href=/vendor/superv/acp/js/chunk-2d0ce80b.d38cc8a5.js rel=prefetch>
     <link href=/vendor/superv/acp/css/app.2199447a.css rel=preload as=style>
     <link href=/vendor/superv/acp/js/app.306e1b22.js rel=preload as=script>
-    <link href=/vendor/superv/acp/js/chunk-vendors.a63833e5.js rel=preload as=script>
+    <link href=/vendor/superv/acp/js/chunk-vendors.2ecf28a8.js rel=preload as=script>
     <link href=/vendor/superv/acp/css/app.2199447a.css rel=stylesheet>
 </head>
 <body class="font-sans font-normal antialiased text-smooth min-h-screen">
@@ -20,7 +20,7 @@
             continue.</strong></noscript>
     <div id=app></div>
     <script id=config type=application/json><?php echo json_encode($config); ?></script>
-    <script src=/vendor/superv/acp/js/chunk-vendors.a63833e5.js></script>
+    <script src=/vendor/superv/acp/js/chunk-vendors.2ecf28a8.js></script>
     <script src=/vendor/superv/acp/js/app.306e1b22.js></script>
 </body>
 </html>
