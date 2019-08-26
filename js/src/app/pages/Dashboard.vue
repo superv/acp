@@ -2,25 +2,31 @@
     <div class="sv-page-2 bg-gray-100 flex-grow">
         <sv-page-header title="Dashboard"></sv-page-header>
 
-        <div class="p-8 pb-10">
-            <sv-card title="Picker">
-                <sv-picker
-                    :payload="pickerPayload"
-                    source="http://acp.supreme.dev.io:8090/api/supreme/dashboard"
-                    target="http://acp.supreme.dev.io:8090/api/supreme/dashboard"
-                >
-                </sv-picker>
+        <div class="p-8 pb-10 h-full">
+            <sv-card class="min-h-1/2" title="Welcome to superV!">
+                Let's make something..
             </sv-card>
         </div>
 
-        <div class="p-8 pb-10">
-            <sv-card title="Notifications">
-                <div class="text-right">
-                    <sv-button @click="success" color="green" size="xs">Success</sv-button>
-                    <sv-button @click="error" color="red" size="xs">Error</sv-button>
-                </div>
-            </sv-card>
-        </div>
+        <!--        <div class="p-8 pb-10">-->
+        <!--            <sv-card title="Picker">-->
+        <!--                <sv-picker-->
+        <!--                    :payload="pickerPayload"-->
+        <!--                    source="http://acp.supreme.dev.io:8090/api/supreme/dashboard"-->
+        <!--                    target="http://acp.supreme.dev.io:8090/api/supreme/dashboard"-->
+        <!--                >-->
+        <!--                </sv-picker>-->
+        <!--            </sv-card>-->
+        <!--        </div>-->
+
+        <!--        <div class="p-8 pb-10">-->
+        <!--            <sv-card title="Notifications">-->
+        <!--                <div class="text-right">-->
+        <!--                    <sv-button @click="success" color="green" size="xs">Success</sv-button>-->
+        <!--                    <sv-button @click="error" color="red" size="xs">Error</sv-button>-->
+        <!--                </div>-->
+        <!--            </sv-card>-->
+        <!--        </div>-->
     </div>
 </template>
 
