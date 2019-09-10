@@ -1,13 +1,11 @@
 const path = require('path')
 const fs = require('fs')
-const base = path.resolve(__dirname, '../../../../../')
 
 const isDevel = process.env.NODE_ENV === 'development'
 
 module.exports = {
   publicPath: isDevel ? '/' : '/vendor/superv/acp/',
 
-  // outputDir: path.resolve(base, 'public/vendor/superv/'),
   outputDir: path.resolve(__dirname, '../resources/assets/'),
 
   indexPath: !isDevel

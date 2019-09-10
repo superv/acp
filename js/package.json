@@ -13,7 +13,8 @@
         "superv-js": "^0.12.3",
         "tailwindcss": "^1.0.4",
         "vue": "^2.6.9",
-        "vue-chartjs": "^3.4.2"
+        "vue-chartjs": "^3.4.2",
+        "vue-js-modal": "^1.3.31"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "^3.4.0",

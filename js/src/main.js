@@ -3,6 +3,9 @@ import supervjs from 'superv-js'
 import Acp from './Acp'
 import routes from './app/routes'
 
+// import vmodal from 'vue-js-modal'
+// Vue.use(vmodal)
+
 let config
 try {
   config = JSON.parse(document.getElementById('config').innerHTML)

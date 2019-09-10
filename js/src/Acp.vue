@@ -1,6 +1,6 @@
 <template>
 
-    <layout-default router-type="tabbed">
+    <layout-default router-type="default">
 
         <template slot="site-header">
             <sv-site-header>
@@ -28,11 +28,10 @@ export default {
 @tailwind components;
 @tailwind utilities;
 body {
-  @apply bg-base;
+    @apply bg-bg;
 }
 
 .font-sans {
-  font-size: 14px;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

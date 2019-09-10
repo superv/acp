@@ -1,12 +1,12 @@
 
 export default [
-  {
-    path: '/',
-    meta: {
-      layout: 'default'
-    },
-    component: () => import('@app/pages/Dashboard'),
-  },
+    // {
+    //   path: '/',
+    //   meta: {
+    //     layout: 'default'
+    //   },
+    //   component: () => import('@app/pages/Dashboard'),
+    // },
   {
     path: '/login',
     meta: {
