@@ -1,6 +1,6 @@
 {
-    "name": "superv/acp-drop",
-    "type": "superv-addon",
+    "name": "superv/acp",
+    "type": "superv-drop",
     "autoload": {
         "psr-4": {
             "SuperV\\Drops\\Acp\\": "src/"
