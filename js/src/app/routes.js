@@ -16,7 +16,7 @@ export default [
       if (!superv.auth.loggedIn) {
         return true
       }
-      superv.router.push('/')
+      superv.router().push('/')
     },
     component: () => import('@app/pages/Login'),
   },

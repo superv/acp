@@ -1,6 +1,6 @@
 <template>
 
-    <layout-default router-type="default">
+    <layout-default>
 
         <template slot="site-header">
             <sv-site-header>
@@ -20,6 +20,14 @@ import { LayoutDefault, SvSidebar, SvSiteHeader } from 'superv-js'
 export default {
   name: 'Acp',
   components: { SvSiteHeader, SvSidebar, LayoutDefault },
+    data() {
+        return {
+            // layout: this.$store.layout
+        }
+    },
+    created() {
+        this.$sv.$layout.tabsActive = true
+    }
 }
 </script>
 

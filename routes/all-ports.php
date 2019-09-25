@@ -7,7 +7,7 @@ return [
                 return 'No registered ports found';
             }
 
-            return view('superv.drops.acp::home', [
+            return view('acp::home', [
                 'config' => [
                     'apiUrl' => $port->url(),
                     'baseUrl' => 'superv'
