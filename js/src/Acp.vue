@@ -26,7 +26,7 @@ export default {
         }
     },
     created() {
-        this.$sv.$layout.tabsActive = true
+        // this.$sv.$layout.tabsActive = true
     }
 }
 </script>
