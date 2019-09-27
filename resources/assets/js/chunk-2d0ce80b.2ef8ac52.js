@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ce80b"],{6072:function(e,n,t){"use strict";t.r(n);var o=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticClass:"flex justify-center items-center h-screen w-full"},[t("sv-login-form")],1)},s=[],c=t("9ea1"),i={name:"Login",components:{SvLoginForm:c["SvLoginForm"]}},l=i,r=t("2877"),u=Object(r["a"])(l,o,s,!1,null,null,null);n["default"]=u.exports}}]);
+//# sourceMappingURL=chunk-2d0ce80b.2ef8ac52.js.map

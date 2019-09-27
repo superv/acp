@@ -15,7 +15,7 @@ module.exports = {
   configureWebpack: {
     devServer: {
       contentBase: path.join(__dirname, 'public'),
-      host: 'acp.supreme.dev.io',
+      host: 'supreme.dev.io',
       publicPath: '/',
       port: 8090,
       proxy: {
