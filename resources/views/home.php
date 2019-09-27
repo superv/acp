@@ -13,7 +13,7 @@
   <link href=/vendor/superv/acp/js/chunk-2d0ce80b.2ef8ac52.js rel=prefetch>
   <link href=/vendor/superv/acp/css/app.0caa2569.css rel=preload as=style>
   <link href=/vendor/superv/acp/css/chunk-vendors.244017cc.css rel=preload as=style>
-  <link href=/vendor/superv/acp/js/app.d4e13d16.js rel=preload as=script>
+  <link href=/vendor/superv/acp/js/app.b3fc7af8.js rel=preload as=script>
   <link href=/vendor/superv/acp/js/chunk-vendors.50aa8e25.js rel=preload as=script>
   <link href=/vendor/superv/acp/css/chunk-vendors.244017cc.css rel=stylesheet>
   <link href=/vendor/superv/acp/css/app.0caa2569.css rel=stylesheet>
@@ -24,6 +24,6 @@
   <div id=app></div>
   <script id=config type=application/json><?php echo json_encode($config); ?></script>
   <script src=/vendor/superv/acp/js/chunk-vendors.50aa8e25.js></script>
-  <script src=/vendor/superv/acp/js/app.d4e13d16.js></script>
+  <script src=/vendor/superv/acp/js/app.b3fc7af8.js></script>
 </body>
 </html>
