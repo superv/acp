@@ -4,6 +4,7 @@ const fs = require('fs')
 const isDevel = process.env.NODE_ENV === 'development'
 
 module.exports = {
+  productionSourceMap: false,
   publicPath: isDevel ? '/' : '/vendor/superv/acp/',
 
   outputDir: path.resolve(__dirname, '../resources/assets/'),
