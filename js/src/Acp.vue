@@ -27,7 +27,7 @@ export default {
     },
     created() {
         // this.$sv.$layout.tabsActive = true
-    }
+    },
 }
 </script>
 
@@ -36,7 +36,7 @@ export default {
 @tailwind components;
 @tailwind utilities;
 body {
-    @apply bg-bg;
+    @apply bg-gray-900;
 }
 
 .font-sans {
